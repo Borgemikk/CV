@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope";
+  background-color: rgb(213, 213, 213);
+  /* background-image: url(https://avatars.mds.yandex.net/i?id=48d33f7b78c49c429f3bdec98ee27ee1b17ca508-9612020-images-thumbs&n=13); */
+}
+
+.nav ul {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 700;
+  margin: 0 150px;
+  padding: 0;
+  cursor: pointer;
+}
+.nav {
+  width: 100%;
+  background-color: #abacac;
+  font-family: "Manrope";
+  font-weight: 700;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav a:hover {
+  color: #fff;
+}
+.bio img {
+  width: 300px;
+  height: 400px;
+  border-radius: 8px;
+}
+.nav li {
+  list-style: none;
+}
+.bio {
+  /* color: white; */
+  width: 80%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 150px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
+.photo {
+  margin: 0 50px 0 30px;
+  width: 50%;
+  text-align: center;
+}
+.about {
+  margin: 0 50px 0 30px;
+  width: 50%;
+}
+.about h1 {
+  font-size: 45px;
+}
+.about p {
+  font-size: 16px;
+  font-weight: bold;
+}
+.bio button {
+  background-color: rgb(213, 213, 213);
+  width: 150px;
+  height: 30px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.skill {
+  margin: 30px 100px;
+}
+.main-title {
+  text-align: center;
+}
+.skills:hover {
+  transform: scale(1.05);
+}
+
+.my-skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: black;
+  font-size: 16px;
+}
+
+.network_security {
+  width: 95%;
+  background-color: blue;
+  border-radius: 3px;
+  animation-name: network_security;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+@keyframes network_security {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 90%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+.cloud_computing {
+  width: 90%;
+  background-color: blue;
+  border-radius: 3px;
+  animation-name: cloud_computing;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+@keyframes cloud_computing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 80%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+.frontend {
+  width: 96%;
+  background-color: blue;
+  border-radius: 3px;
+  animation-name: frontend;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+@keyframes frontend {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 65%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+.backend {
+  width: 80%;
+  background-color: blue;
+  border-radius: 3px;
+  animation-name: backend;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+@keyframes backend {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 60%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+.container {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  font-family: "Manrope";
+  /* background-color: whitesmoke; */
+}
+.container li {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.container a {
+  font-weight: bold;
+  color: black;
+}
+.block-1 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-left: 150px;
+}
+
+.block-1 p {
+  font-size: 10px;
+}
+.block-1 h4 {
+  margin-top: 50px;
+}
+.block-2 {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-right: 150px;
+}
+.block-2 h2 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.why h1 {
+  width: 100%;
+  height: 40px;
+  background-color: #abacac;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.why p {
+  width: 900px;
+  height: 300px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin: 45px auto;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  font-family: "Manrope";
+  font-weight: bold;
+}
+
+.interests h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 40px;
+  background-color: #abacac;
+}
+.interests img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 100px;
+}
+.reading {
+  width: 250px;
+  height: 300px;
+  background-color: whitesmoke;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+.movies {
+  width: 250px;
+  height: 300px;
+  background-color: whitesmoke;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+.cooking {
+  width: 250px;
+  height: 300px;
+  background-color: whitesmoke;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+.dance {
+  width: 250px;
+  height: 300px;
+  background-color: whitesmoke;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.contact img {
+  width: 100px;
+  height: 60px;
+}
+.footer_content {
+  background-color: #abacac;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.first_img {
+  width: 80px;
+  height: 50px;
+}
+.second_img {
+  width: 45px;
+  height: 45px;
+}
+.third_img {
+  width: 70px;
+  height: 45px;
+}
+.forth_img {
+  width: 80px;
+  height: 50px;
+}
